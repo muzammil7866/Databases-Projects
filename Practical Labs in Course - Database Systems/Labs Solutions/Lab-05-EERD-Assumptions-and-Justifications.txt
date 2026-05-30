@@ -1,0 +1,26 @@
+EER Diagram for Art Museum Database:
+
+Assumptions:
+
+Each art object has only one artist associated with it.
+An artist can have multiple art objects.
+An art object can be categorized in multiple ways (e.g., a sculpture could be part of both the Permanent Collection and a Borrowed exhibition).
+
+Justification for EER Design:
+
+Generalization/Specialization: Using the generalization/specialization approach, we have a base entity (ART_OBJECT) with subclasses (PAINTING, SCULPTURE, STATUE, OTHER) to handle different types of art objects efficiently.
+
+Associations: We use associations to establish relationships between entities, such as the association between ART_OBJECT and ARTIST, ART_OBJECT and EXHIBITION, and ART_OBJECT and COLLECTION. This helps in organizing and retrieving data related to these entities.
+
+Attributes: Attributes are appropriately assigned to entities, and relationships are established based on the given requirements. This ensures that the database can store and retrieve relevant information about art objects, artists, exhibitions, and collections.
+
+Normalization: The design follows normalization principles to minimize data redundancy and improve data integrity.
+
+EER Diagram for Online Auction Database:
+
+Assumptions:
+
+A buyer can be a seller and vice versa.
+An item can have multiple categories.
+Buyers and sellers can provide feedback on multiple transactions.
+

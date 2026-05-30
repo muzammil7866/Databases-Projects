@@ -1,0 +1,30 @@
+# Visual Studio build artifacts
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# Visual Studio cache and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+*.exe
+*.pdb
+*.dll
+*.cache
+*.log
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Roslyn/MSBuild generated files
+*.AssemblyReference.cache
+*.CoreCompileInputs.cache
+*.FileListAbsolute.txt
+*.GenerateResource.cache
+TempPE/
